@@ -187,6 +187,7 @@ def player_stats(look_up)
     team_info[:players].each do |attributes|
       if look_up == attributes[:player_name]
         answer = attributes[:players]
+        binding.pry
       end
     end
     answer
