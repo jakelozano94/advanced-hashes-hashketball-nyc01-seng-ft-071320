@@ -194,6 +194,19 @@ def player_stats(look_up)
   end
   answer
 end
+
+def big_shoe_rebounds
+  answer = ""
+  size = 0
+  game_hash.each do |team, team_info|
+    team_info[:players].each do |attributes|
+      if  attributes[:shoe] > 0
+        size = attributes[:shoe]
+      end
+    end
+    binding.pry
+  end
+    
   
   
   
