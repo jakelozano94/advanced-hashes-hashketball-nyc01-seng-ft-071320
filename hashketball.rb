@@ -208,10 +208,11 @@ end
 game_hash.each do |team, team_info|
   team_info[:players].each do |attributes|
     if attributes[:shoe] = size
-      answer = attributes[:player_name]
+      answer = attributes[:rebounds]
     end
   end
 end
+answer
 end
     
   
