@@ -209,6 +209,7 @@ game_hash.each do |team, team_info|
   team_info[:players].each do |attributes|
     if attributes[:shoe] = size
       answer = attributes[:rebounds]
+      binding.pry
     end
   end
 end
