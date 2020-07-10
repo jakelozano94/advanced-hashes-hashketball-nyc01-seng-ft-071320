@@ -203,9 +203,10 @@ def big_shoe_rebounds
       if  attributes[:shoe] > 0
         size = attributes[:shoe]
       end
-    end
-    binding.pry
   end
+end
+binding.pry
+end
     
   
   
