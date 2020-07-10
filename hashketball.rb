@@ -189,7 +189,6 @@ def player_stats(look_up)
     end
     answer
   end
-  answer
 end
   
   
