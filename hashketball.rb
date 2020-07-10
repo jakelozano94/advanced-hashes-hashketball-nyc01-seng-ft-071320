@@ -188,9 +188,9 @@ def player_stats(look_up)
         binding.pry
       end
     end
-    final_array
+    answer
   end
-  final_array
+  answer
 end
   
   
