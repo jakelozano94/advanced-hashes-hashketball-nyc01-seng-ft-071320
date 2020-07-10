@@ -187,9 +187,10 @@ def player_stats(look_up)
       if look_up == attributes[:player_name]
         binding.pry
       end
-      end
     end
+    final_array
   end
+  final_array
 end
   
   
